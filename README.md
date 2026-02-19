@@ -1,6 +1,6 @@
 # Hi there, I'm Federico! 👋
 
-![Banner Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNcuJAeoaxQe2q1cQvhYixWWiExb-VJ-YoLISv-62QU5YDoNzv02rRZaRrlCg7Y0DqHMw&usqp=CAU)
+![Banner Image](![Banner](./banner.svg))
 
 ## About Me 🚀
 
