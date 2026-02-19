@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050c17;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#0a1628;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1f3c;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Accent glow -->
+    <radialGradient id="glowLeft" cx="20%" cy="50%" r="45%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:0.12" />
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="glowRight" cx="85%" cy="50%" r="40%">
+      <stop offset="0%" style="stop-color:#00ffa3;stop-opacity:0.08" />
+      <stop offset="100%" style="stop-color:#00ffa3;stop-opacity:0" />
+    </radialGradient>
+
+    <!-- Clip path -->
+    <clipPath id="bounds">
+      <rect width="1200" height="300" />
+    </clipPath>
+
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="2" />
+    </filter>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.3" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <g clip-path="url(#bounds)">
+    <!-- Base background -->
+    <rect width="1200" height="300" fill="url(#bgGrad)" />
+
+    <!-- Grid texture -->
+    <rect width="1200" height="300" fill="url(#grid)" />
+
+    <!-- Glow overlays -->
+    <rect width="1200" height="300" fill="url(#glowLeft)" />
+    <rect width="1200" height="300" fill="url(#glowRight)" />
+
+    <!-- Decorative circuit lines left -->
+    <g stroke="#00d4ff" stroke-opacity="0.18" stroke-width="1" fill="none">
+      <polyline points="0,80 60,80 80,60 160,60" />
+      <polyline points="0,130 40,130 60,110 140,110 160,130 240,130" />
+      <polyline points="0,200 30,200 50,180 90,180" />
+      <polyline points="0,240 70,240 90,220 180,220 200,240 280,240" />
+      <!-- Nodes -->
+      <circle cx="60" cy="80" r="2.5" fill="#00d4ff" stroke="none" opacity="0.5"/>
+      <circle cx="160" cy="60" r="2.5" fill="#00d4ff" stroke="none" opacity="0.5"/>
+      <circle cx="140" cy="110" r="2.5" fill="#00d4ff" stroke="none" opacity="0.5"/>
+      <circle cx="90" cy="180" r="2.5" fill="#00d4ff" stroke="none" opacity="0.5"/>
+    </g>
+
+    <!-- Decorative circuit lines right -->
+    <g stroke="#00ffa3" stroke-opacity="0.15" stroke-width="1" fill="none">
+      <polyline points="1200,70 1140,70 1120,90 1060,90" />
+      <polyline points="1200,160 1150,160 1130,140 1050,140" />
+      <polyline points="1200,230 1120,230 1100,210 1020,210 1000,230 940,230" />
+      <circle cx="1140" cy="70" r="2.5" fill="#00ffa3" stroke="none" opacity="0.5"/>
+      <circle cx="1060" cy="90" r="2.5" fill="#00ffa3" stroke="none" opacity="0.5"/>
+      <circle cx="1020" cy="210" r="2.5" fill="#00ffa3" stroke="none" opacity="0.5"/>
+    </g>
+
+    <!-- Diagonal accent line -->
+    <line x1="320" y1="0" x2="420" y2="300" stroke="#00d4ff" stroke-width="0.5" stroke-opacity="0.1"/>
+    <line x1="360" y1="0" x2="460" y2="300" stroke="#00d4ff" stroke-width="0.5" stroke-opacity="0.06"/>
+
+    <!-- Vertical separator -->
+    <line x1="380" y1="40" x2="380" y2="260" stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.25"/>
+
+    <!-- === LEFT SECTION: Name & Role === -->
+
+    <!-- Monospace label -->
+    <text x="60" y="95" font-family="'Courier New', monospace" font-size="11" fill="#00d4ff" opacity="0.7" letter-spacing="3">$ whoami</text>
+
+    <!-- Name -->
+    <text x="55" y="148" font-family="'Courier New', monospace" font-size="34" font-weight="700" fill="#ffffff" letter-spacing="-1">Federico</text>
+    <text x="55" y="188" font-family="'Courier New', monospace" font-size="34" font-weight="700" fill="#00d4ff" letter-spacing="-1">Zerbin</text>
+
+    <!-- Role tag -->
+    <rect x="55" y="208" width="262" height="26" rx="4" fill="#00d4ff" fill-opacity="0.1" stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="186" y="226" font-family="'Courier New', monospace" font-size="11" fill="#00d4ff" text-anchor="middle" letter-spacing="2">SOFTWARE DEV &amp; CS STUDENT</text>
+
+    <!-- === RIGHT SECTION: Tech Stack === -->
+
+    <!-- Section label -->
+    <text x="430" y="60" font-family="'Courier New', monospace" font-size="11" fill="#00ffa3" opacity="0.7" letter-spacing="3">// tech stack</text>
+
+    <!-- Tech pills — Row 1 -->
+    <!-- Java -->
+    <rect x="430" y="75" width="90" height="28" rx="5" fill="#ffffff" fill-opacity="0.04" stroke="#e76f51" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="447" cy="89" r="5" fill="#e76f51" opacity="0.8"/>
+    <text x="457" y="94" font-family="'Courier New', monospace" font-size="12" fill="#ffffff" opacity="0.9">Java</text>
+
+    <!-- JavaScript -->
+    <rect x="532" y="75" width="125" height="28" rx="5" fill="#ffffff" fill-opacity="0.04" stroke="#f7df1e" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="549" cy="89" r="5" fill="#f7df1e" opacity="0.9"/>
+    <text x="559" y="94" font-family="'Courier New', monospace" font-size="12" fill="#ffffff" opacity="0.9">JavaScript</text>
+
+    <!-- SQL -->
+    <rect x="669" y="75" width="80" height="28" rx="5" fill="#ffffff" fill-opacity="0.04" stroke="#4479a1" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="686" cy="89" r="5" fill="#4479a1" opacity="0.9"/>
+    <text x="696" y="94" font-family="'Courier New', monospace" font-size="12" fill="#ffffff" opacity="0.9">SQL</text>
+
+    <!-- C -->
+    <rect x="761" y="75" width="60" height="28" rx="5" fill="#ffffff" fill-opacity="0.04" stroke="#a8b9cc" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="778" cy="89" r="5" fill="#a8b9cc" opacity="0.9"/>
+    <text x="788" y="94" font-family="'Courier New', monospace" font-size="12" fill="#ffffff" opacity="0.9">C</text>
+
+    <!-- HTML -->
+    <rect x="833" y="75" width="84" height="28" rx="5" fill="#ffffff" fill-opacity="0.04" stroke="#e34f26" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="850" cy="89" r="5" fill="#e34f26" opacity="0.9"/>
+    <text x="860" y="94" font-family="'Courier New', monospace" font-size="12" fill="#ffffff" opacity="0.9">HTML5</text>
+
+    <!-- CSS -->
+    <rect x="929" y="75" width="75" height="28" rx="5" fill="#ffffff" fill-opacity="0.04" stroke="#1572b6" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="946" cy="89" r="5" fill="#1572b6" opacity="0.9"/>
+    <text x="956" y="94" font-family="'Courier New', monospace" font-size="12" fill="#ffffff" opacity="0.9">CSS3</text>
+
+    <!-- Row 2 -->
+    <!-- Spring Boot -->
+    <rect x="430" y="118" width="128" height="28" rx="5" fill="#ffffff" fill-opacity="0.04" stroke="#6db33f" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="447" cy="132" r="5" fill="#6db33f" opacity="0.9"/>
+    <text x="457" y="137" font-family="'Courier New', monospace" font-size="12" fill="#ffffff" opacity="0.9">Spring Boot</text>
+
+    <!-- Node.js -->
+    <rect x="570" y="118" width="100" height="28" rx="5" fill="#ffffff" fill-opacity="0.04" stroke="#339933" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="587" cy="132" r="5" fill="#339933" opacity="0.9"/>
+    <text x="597" y="137" font-family="'Courier New', monospace" font-size="12" fill="#ffffff" opacity="0.9">Node.js</text>
+
+    <!-- React -->
+    <rect x="682" y="118" width="90" height="28" rx="5" fill="#ffffff" fill-opacity="0.04" stroke="#61dafb" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="699" cy="132" r="5" fill="#61dafb" opacity="0.9"/>
+    <text x="709" y="137" font-family="'Courier New', monospace" font-size="12" fill="#ffffff" opacity="0.9">React</text>
+
+    <!-- PostgreSQL -->
+    <rect x="784" y="118" width="122" height="28" rx="5" fill="#ffffff" fill-opacity="0.04" stroke="#4169e1" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="801" cy="132" r="5" fill="#4169e1" opacity="0.9"/>
+    <text x="811" y="137" font-family="'Courier New', monospace" font-size="12" fill="#ffffff" opacity="0.9">PostgreSQL</text>
+
+    <!-- Row 3 -->
+    <!-- Git -->
+    <rect x="430" y="161" width="72" height="28" rx="5" fill="#ffffff" fill-opacity="0.04" stroke="#f05032" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="447" cy="175" r="5" fill="#f05032" opacity="0.9"/>
+    <text x="457" y="180" font-family="'Courier New', monospace" font-size="12" fill="#ffffff" opacity="0.9">Git</text>
+
+    <!-- Linux -->
+    <rect x="514" y="161" width="88" height="28" rx="5" fill="#ffffff" fill-opacity="0.04" stroke="#fcc624" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="531" cy="175" r="5" fill="#fcc624" opacity="0.9"/>
+    <text x="541" y="180" font-family="'Courier New', monospace" font-size="12" fill="#ffffff" opacity="0.9">Linux</text>
+
+    <!-- MongoDB -->
+    <rect x="614" y="161" width="110" height="28" rx="5" fill="#ffffff" fill-opacity="0.04" stroke="#47a248" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="631" cy="175" r="5" fill="#47a248" opacity="0.9"/>
+    <text x="641" y="180" font-family="'Courier New', monospace" font-size="12" fill="#ffffff" opacity="0.9">MongoDB</text>
+
+    <!-- JUnit -->
+    <rect x="736" y="161" width="85" height="28" rx="5" fill="#ffffff" fill-opacity="0.04" stroke="#25a162" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="753" cy="175" r="5" fill="#25a162" opacity="0.9"/>
+    <text x="763" y="180" font-family="'Courier New', monospace" font-size="12" fill="#ffffff" opacity="0.9">JUnit</text>
+
+    <!-- Figma -->
+    <rect x="833" y="161" width="88" height="28" rx="5" fill="#ffffff" fill-opacity="0.04" stroke="#f24e1e" stroke-width="1" stroke-opacity="0.6"/>
+    <circle cx="850" cy="175" r="5" fill="#f24e1e" opacity="0.9"/>
+    <text x="860" y="180" font-family="'Courier New', monospace" font-size="12" fill="#ffffff" opacity="0.9">Figma</text>
+
+    <!-- Bottom blinking cursor line -->
+    <text x="430" y="230" font-family="'Courier New', monospace" font-size="12" fill="#00ffa3" opacity="0.5" letter-spacing="1">University of Turin · CS &amp; Full-Stack Development · AI Enthusiast</text>
+
+    <!-- Blinking cursor -->
+    <rect x="430" y="245" width="8" height="16" fill="#00d4ff" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0;0.7" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Bottom border line -->
+    <line x1="0" y1="298" x2="1200" y2="298" stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.2"/>
+    <!-- Top border line -->
+    <line x1="0" y1="2" x2="1200" y2="2" stroke="#00d4ff" stroke-width="0.8" stroke-opacity="0.2"/>
+  </g>
+</svg>
