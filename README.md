@@ -1,6 +1,6 @@
 # Hi there, I'm Federico! 👋
 
-![Banner Image](![Banner](./banner.svg))
+![Banner](https://raw.githubusercontent.com/federicozerbin/federicozerbin/main/banner.svg)
 
 ## About Me 🚀
 
