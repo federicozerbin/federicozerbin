@@ -8,7 +8,7 @@ I'm a **Computer Science student** (3rd year, University of Turin) with hands-on
 
 - 🎓 Studying: **Computer Science (L-31) @ Università degli Studi di Torino**
 - 🌱 Currently learning: **Web development & AI/LLM technologies**
-- 🔭 Working on: **A university project — a web app with a React + Bootstrap frontend, two Node.js servers + a Java backend, and persistence via PostgreSQL and MongoDB**
+- 🔭 Working on: **Back-End Development and APIs Certification on freecodecamp.org** & **My Uni bachelor's thesis**
 - 📍 Based in: **Turin / Domodossola, Piemonte, Italy**
 - 🌍 Languages: **Italian (native), English (B1), Japanese (beginner)**
 - 📫 How to reach me: **federicozerbin98@gmail.com**
