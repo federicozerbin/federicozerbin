@@ -1,6 +1,4 @@
-# Hi there, I'm Federico! 👋
-
-![Banner](https://raw.githubusercontent.com/federicozerbin/federicozerbin/main/banner.svg)
+# Hi there, I'm Federico
 
 ## About Me 🚀
 
