@@ -1,17 +1,16 @@
 ## About Me 
-
 I'm a **Computer Science student** (3rd year, University of Turin) with hands-on experience in **full-stack development** and **IT support**. I love tackling complex problems, learning new skills, and collaborating with diverse teams to create innovative solutions.
 
 - Studying: **Computer Science (L-31) @ Università degli Studi di Torino**
 - Currently learning: **Web development & AI/LLM technologies**
 - Working on: **Front-End Development Libraries Certification on freecodecamp.org** & **My Uni bachelor's thesis**
 - Based in: **Turin / Domodossola, Piemonte, Italy**
-- Languages: **Italian (native), English (B1), Japanese (beginner)**
+- Languages: **Italian (native), English (B2/C1), Japanese (A1)**
 - How to reach me: **federicozerbin98@gmail.com**
 - LinkedIn: **[federico-zerbin](https://linkedin.com/in/federico-zerbin-8a31983a3/)**
 - Fun fact: **I started university studying Japanese and Modern Languages — and somehow ended up in Computer Science. I still have a deep love for human languages and linguistics, and I really hope to work with NLP or AI technologies in the future!**
 
-## My Skills 🧠
+## My Skills:
 
 ### Languages
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
@@ -54,17 +53,17 @@ I'm a **Computer Science student** (3rd year, University of Turin) with hands-on
 
 ---
 
-## Experience 💼
+## Experience
 
-**IT Help Desk Technician (Level 1)** — *Wave Informatica srl, Grugliasco (TO)*
+**IT Help Desk Technician (Level 1)**
 `Aug 2022 – Feb 2023`
 Application support, ticket management, OS installation & configuration (Windows & Linux), network troubleshooting, remote & on-site support.
 
-**Technical Text Reviewer** — *Casa Editrice SEI, Torino (TO)*
+**Technical Text Reviewer**
 `Jan 2021 – Aug 2022`
 Revision of educational textbooks for Gruppo Editoriale La Scuola SEI. Fully remote, autonomous content management.
 
-## Education 🎓
+## Education
 
 **Bachelor's in Computer Science (L-31)** — *Università degli Studi di Torino* — `In progress (3rd year)`
 OOP (Java, C, C++), Algorithms & Data Structures, Databases, OS, Computer Architecture, Formal Languages & Compilers, Networking, Software Engineering (Agile, UML), Web Technologies, AI & LLMs, Discrete Math, Statistics, Physics.
