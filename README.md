@@ -50,8 +50,8 @@ I'm a **Computer Science student** (3rd year, University of Turin) with hands-on
 ![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![JUnit](https://img.shields.io/badge/-JUnit-25A162?style=flat-square&logo=junit5&logoColor=white)
 ![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-
----
+![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
+![Windows](https://img.shields.io/badge/-Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
 
 ## Experience
 
@@ -76,7 +76,7 @@ Math, Physics, Chemistry, English, Latin, Philosophy, Art History.
 
 ---
 
-## Get in Touch 📬
+## Get in Touch
 
 - 📧 **[federicozerbin98@gmail.com](mailto:federicozerbin98@gmail.com)**
 - 💼 **[LinkedIn](https://linkedin.com/in/federico-zerbin-8a31983a3/)**
